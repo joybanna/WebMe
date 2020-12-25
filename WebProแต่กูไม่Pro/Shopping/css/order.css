@@ -1,0 +1,75 @@
+body {background-color: #2f2f2f;
+font-family: 'Ubuntu', sans-serif;color: white;}
+
+.nav_bar{display: grid;
+grid-template-columns: 10% 10% 10%;
+margin-left: 1%;
+padding: 1.5%;
+}
+
+.but01{padding: 9% 30%;
+background-color:#2f2f2f;
+color: white;
+border: none;
+font-size: 20px;
+}
+.but01:hover {
+  background-color: #006bd7;
+
+}
+
+
+.col-25{padding: 10px;
+	     background-image: url("https://data2.origin.com/asset/content/dam/originx/web/app/games/apex/apex/F2P/screenshots/R5_World_Airbase_01_v02.jpg/8196e07f-4f27-49f5-afb9-8b4ca5e65eb0/original.jpg");
+	     }
+.col-25{padding: 5%;}
+
+. ;padding: 1%;
+margin-left: 10%;margin-right: 10%;opacity:0.9; }
+.addinfo{display: grid;
+grid-template-columns:50% 50%;padding: 2%;background-color:#2f2f2f; }
+
+.Order1{background-color:#2f2f2f; margin-left: 8%; padding: 5%;opacity:0.9;}
+
+
+.b1{display: grid;grid-template-columns:50% 50%;margin-top: 5%;padding: 2%;grid-template-rows: auto;
+}
+
+.name01{height:25px;}
+.name02{width: 50%;height:20px;}
+.name03{width: 50%;height:20px;}
+
+
+.namein{}
+.check{text-align: center; margin-left: 2%;margin-top:10%;}
+.checkbott{width: 200%;height: 40px;}
+.forminfo{padding: 3%;}
+.payment{padding: 3%;}
+
+.namein{margin-top: 1%;}
+.email01{margin-top: 5%;}
+.address01{margin-top: 5%;}
+.city{margin-top: 5%;}
+.state{margin-top: 5%;}
+.postof{margin-top: 5%;}
+.card{margin-top: 1%;}
+.namecard{margin-top: 5%;}
+.numcard{margin-top: 5%;}
+.exp{margin-top: 5%;}
+.year{margin-top: 5%;}
+.cvv{margin-top: 5%;}
+
+.price{float: right;}
+
+a:link	{
+text-decoration:none;
+}
+
+a:visited	{
+text-decoration:none;
+}
+
+.ordername{font-size: 20px;}
+.checkbott{background-color: #cd334e;
+color: white;border:none;
+font-size: 20px;}

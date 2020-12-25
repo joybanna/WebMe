@@ -1,0 +1,186 @@
+
+body{
+    font-family: serif;
+    background-image: url("../img/bgregis.jpg");
+}
+/*----------------------------------------*/
+.ooo{background-color:#e0e5ed;
+    margin-left: 12%; 
+   padding-top: 2%;
+    margin-right:50%;
+    opacity: 0.95; 
+    border-radius: 10px;
+}
+
+
+.head1{ display: grid;grid-template-columns:50% 50%;
+margin-bottom: ; margin-top: 1%;color: white;}
+
+.next1{float: right;
+       border: none;
+       outline: none;
+       padding: 10px 30px;
+       margin-right: 2%;
+       background-color: #4386f8;
+       color: white;
+       border-radius: 5px;
+       cursor: pointer;
+
+       
+   }
+
+.back1{float: left;
+       border: none;
+       outline: none;
+       padding: 10px 30px;
+        margin-left: 2%;
+        background-color: #4386f8;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+
+   }
+   .back1:hover{
+    background-color: #0077ee;
+    color: white;}
+
+    .next1:hover{
+    background-color: #0077ee;
+    color: white;}
+    
+
+
+/*---------------------------------------*/
+
+.fi{
+    
+  
+
+    background-color: none;
+    padding: 5px;
+    color: white;
+    
+}
+input[type=text], input[type=password], input[type=date], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+   
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    background-color: white;
+   
+    border-radius: 5px;
+}
+
+
+.topre{text-align: center; 
+    
+    color: black;
+    padding: 20px 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.topre img{width: 30px;height: 30px; margin-right: 3%;}
+
+.bott {
+    background-color: #4386f8;
+    color: white;
+    font-size: 18px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /*opacity: 0.9;*/
+    border-radius: 5px;
+}
+.bott:hover{
+    background-color: #0077ee;
+    color: white;
+}
+.userpic{
+    
+  text-align: center;
+    margin: 24px 0 12px 0;
+
+}
+
+.userpic img{width: 200px;height: 200px;background-color:#4386f8; border-radius: 100%;}
+
+
+
+/*------------------------------------------------*/
+.bott_login {
+    background-color: #4386f8;
+    color: white;
+    font-size: 18px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /*opacity: 0.9;*/
+    border-radius: 5px;
+}
+
+.bott_login:hover{
+    background-color: #0077ee;
+    color: white;
+}
+ 
+ .reg1{float: right;}
+
+ .fi2{
+    
+   margin-right: 5%;
+   margin-left: 5%;
+    background-color: none;
+    padding: 5px;
+}   
+
+
+
+
+
+.back2 a{font-size: 50px;}
+
+.ppp{color: white;float: right; margin-top:18%; 
+  border-radius: 10px;
+   font-size: 40px;
+   margin-right: 10%;
+   font-weight: bold;
+   background-color: black;
+   padding: 2%;
+    opacity: 0.7;}
+
+p{text-align: center;font-size: 25px;}
+
+@media only screen and (max-width: 600px) {
+    .ooo {
+        background-color:#e0e5ed;
+        margin-top: 35%;
+        margin-left: 10%; 
+        margin-right: 10%;
+        opacity: 0.95; 
+        border-radius: 10px;
+    } 
+    .fi2 {
+        padding-top: 1%;
+        margin-right: 5%;
+        margin-left: 5%;
+        background-color: none;
+    }   
+    .ppp {
+        color: white;
+        float: left; 
+        margin-top: -30%;
+        border-radius: 8px; 
+        font-size: 30px;
+        margin-left: 15%;
+        font-weight: bold;
+        background-color: black;
+        padding: 2%; 
+        opacity: 0.7;
+    }
+    }

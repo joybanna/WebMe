@@ -1,0 +1,222 @@
+body {background-color: white;
+font-family: 'Ubuntu', sans-serif;color: white;}
+
+
+
+.Head11 {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 1%;
+
+}
+
+.Head11 a {
+ 
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+
+}
+
+
+.home_but{padding-left: 20px;
+}
+
+
+.Head11 a:hover {
+  color: #f1f1f1; padding-left: 40px;
+  padding-left: 20: 
+}
+
+
+
+
+@media screen and (max-height: 100%;) {
+  .Head11 {padding-top: 20px;}
+  .Head11 a {font-size: 18px;}
+} 
+
+
+
+
+.Head11{background-color: #2f2f2f;
+height: 100%;
+}
+
+.but01{width: 100%;
+background-color:#2f2f2f;
+color: white;
+border: none;
+font-size: 18px;
+padding-right: 100%;
+margin-top: 3%;
+padding-top: 5%; 
+padding-bottom:5%; 
+padding-left: 10%;
+
+}
+.but01:hover {
+  background-color: #0c4ba3;
+
+
+}
+.hhh{
+  padding-top: 150%;  
+
+}
+
+
+
+.urname{text-align: center;
+   color: #f1f1f1; 
+   font-size: 25px;
+   margin-right: 5%;
+}
+
+.logo{width: 10%;
+height: 5%;}
+.logo img{height: 100px;
+width:220px;}
+
+/*--------------------*/
+.row{padding-left: 15%;
+margin-top: 5%;}
+
+
+
+
+.pp1 {height: 20px;width: 25px;}
+
+
+/*--------------------*/
+
+.container{padding: 2%;}
+
+
+.container{display: grid;
+grid-template-columns:70% 30%;margin-right: 5%;margin-left: 5%;}
+
+.addinfo{display: grid;
+grid-template-columns:50% 50%;
+padding: 2%;background-color:#2f2f2f;
+}
+
+.namein{margin-top: 1%;}
+.email01{margin-top: 5%;}
+.address01{margin-top: 5%;}
+.city{margin-top: 5%;}
+.state{margin-top: 5%;}
+.postof{margin-top: 5%;}
+.card{margin-top: 1%;}
+.namecard{margin-top: 5%;}
+.numcard{margin-top: 5%;}
+.exp{margin-top: 5%;}
+.year{margin-top: 5%;}
+.cvv{margin-top: 5%;}
+
+.name01{height:25px; width: 90%;border-radius:3px;}
+.name02{width: 50%;height:20px;border-radius:3px;}
+.name03{width: 50%;height:20px;border-radius:3px;}
+
+.b1{display: grid;grid-template-columns:50% 50%;margin-top: 5%;padding: 2%;grid-template-rows: auto;
+}
+
+.namein{}
+.check{ margin-top:10%; margin-right: 5%;}
+.checkbott{width: 200%;height: 40px;border-radius:3px;
+  cursor: pointer;
+  
+}
+.forminfo{padding: 3%;}
+.payment{padding: 3%;margin-top: 1%;}
+
+.checkbott{background-color: #cd334e;
+color: white;border:none;
+font-size: 20px;}
+
+
+.ordername{font-size: 20px;}
+
+.price{float: right;}
+
+a:link	{
+text-decoration:none;
+}
+
+a:visited	{
+text-decoration:none;
+}
+
+.cck{padding: 5%;}
+
+.gmname{height:25px; width: 100%;margin-top: 3%;border-radius:4;}
+
+
+
+.Order1{ padding: 2%;}
+
+.fff{height: 10%;width: 35%;margin-left: 15%;margin-top: 5%;}
+.gogo{margin-top: 20%;}
+
+.col-25{background-color:; }
+.container{color: black; }
+input{
+  color: black;
+  border: none;
+  border-radius:5px;
+  padding:2%;
+}
+.addinfo{background-color: #f2f2f2;}
+.ooo{background-color:#f2f2f2;padding: 5%; }
+.gogo{background-color:#f2f2f2; padding: 5%;}
+
+
+@media only screen and (max-width: 600px) {
+    
+      .but01{
+            padding: 9%;
+            background-color:#2f2f2f;
+            color: white;
+            border: none;
+            font-size: 20px;
+            border-radius: 5px;
+      }      
+      .logo img {
+            height: 40px;
+            width: 1000%;
+          }
+          .Head11 {
+            height: 100%;
+            width: 25%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 1%;
+            background-color: #2f2f2f;
+          }
+          .Head11 a:hover {
+            color: #f1f1f1; 
+            padding-left: 10px;
+          }
+          .urname {
+              margin-left: 5%;
+              font-size: 110%;
+          }
+
+
+
+          .container{
+            display: block;
+            margin-right: 5%;
+            margin-left: 15%;
+          }
+}
