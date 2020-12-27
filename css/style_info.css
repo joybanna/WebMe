@@ -1,0 +1,217 @@
+/*------Info------*/
+@font-face {
+  font-family: Quark-Bold;
+  src: url(../webfonts/Quark-Bold.otf);
+}
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(../webfonts/LeagueSpartan-Bold.otf);
+}
+@font-face {
+  font-family: Quark-Light;
+  src: url(../webfonts/Quark-Light.otf);
+}
+body {
+  background-color: rgb(220, 244, 255);
+  font-family: Quark-Bold;
+  margin: 0;
+}
+div.Nav_Bar {
+  position: absolute;
+  font-size: 25px;
+  right: 10px;
+  text-align: right;
+  margin-top: 10px;
+}
+a.button_Nav:link,
+a.button_Nav:visited {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+a.button_Nav:hover,
+a.button_Nav:active {
+  color: rgb(163, 163, 163);
+  font-size: 101%;
+  transition: 0.5s;
+}
+body {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+div.Head {
+  grid-area: 1/1;
+  width: 100%;
+  height: 10vh;
+  background-color: #1b262c;
+}
+div.Content {
+  grid-area: 2/1;
+  width: 100%;
+}
+div.Foot {
+  grid-area: 3/1;
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+}
+
+/*------Info------*/
+div.Content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  background-color: white;
+}
+div.profile_pic {
+  background-color: #1b262c;
+  grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 350px;
+}
+div.bank-1 {
+  grid-area: 2/1;
+  color: #bbe1fa;
+  background-color: #bbe1fa;
+}
+div.bank-2 {
+  grid-area: 3/2;
+  background-color: rgb(255, 242, 229);
+}
+div.bank-3 {
+  grid-area: 4/1;
+  background-color: #bbe1fa;
+}
+div.bank-4 {
+  grid-area: 5/2;
+  background-color: rgb(255, 242, 229);
+}
+div.bank-5 {
+  background-color: #bbe1fa;
+  grid-area: 6/1;
+}
+div.profile_objective {
+  background-color: rgb(255, 242, 229);
+  grid-area: 2/2;
+  height: 250px;
+  padding: 10px;
+  height: auto;
+}
+div.profile_personal {
+  padding-left: 20px;
+  background-color: #bbe1fa;
+  grid-area: 3/1;
+  padding: 10px;
+  height: auto;
+}
+div.profile_education {
+  background-color: rgb(255, 242, 229);
+  grid-area: 4/2;
+  padding: 10px;
+  height: auto;
+}
+div.profile_workingEXP {
+  background-color: #bbe1fa;
+  grid-area: 5/1;
+  padding: 10px;
+  height: auto;
+}
+div.profile_Skill {
+  background-color: rgb(255, 242, 229);
+  grid-area: 6/2;
+  padding: 10px;
+  height: auto;
+}
+div.img {
+  height: 300px;
+  width: 300px;
+  background-color: bisque;
+  border-radius: 20px;
+}
+div.short-data {
+  padding: 20px;
+}
+a.head-name-text {
+  font-size: 100px;
+  color: white;
+}
+a.sub-text {
+  font-family: Quark-Light;
+  font-size: 20px;
+}
+a.sub-text-wh {
+  font-family: Quark-Light;
+  font-size: 20px;
+  color: white;
+}
+a.toppic-text-r {
+  padding-right: 15%;
+  float: right;
+  font-size: 50px;
+}
+a.toppic-text-l {
+  padding-left: 15%;
+  float: left;
+  font-size: 50px;
+}
+div.box-personal {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  margin-left: 10%;
+}
+img.icon-toppic {
+  height: 200px;
+  width: 200px;
+}
+div.box1-1 {
+  grid-area: 1/1;
+}
+div.box1-2 {
+  grid-area: 1/2;
+}
+div.box2-1 {
+  grid-area: 2/1;
+}
+div.box2-2 {
+  grid-area: 2/2;
+}
+div.box3-1 {
+  grid-area: 3/1;
+}
+div.box3-2 {
+  grid-area: 3/2;
+}
+div.box4-1 {
+  grid-area: 4/1;
+}
+div.box4-2 {
+  grid-area: 4/2;
+}
+div.box5-1 {
+  grid-area: 5/1;
+}
+div.box5-2 {
+  grid-area: 5/2;
+}
+div.box6-1 {
+  grid-area: 6/1;
+}
+div.box6-2 {
+  grid-area: 6/2;
+}
+div.box7-1 {
+  grid-area: 7/1;
+}
+div.box7-2 {
+  grid-area: 7/2;
+}
+div.box8-1 {
+  grid-area: 8/1;
+}
+div.box8-2 {
+  grid-area: 8/2;
+}
