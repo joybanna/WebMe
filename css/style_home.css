@@ -13,13 +13,9 @@
 }
 body {
   background-color: rgb(69, 80, 101);
-  /*background-image: url(../img/bg_home.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;*/
-
   font-family: Quark-Bold;
   margin: 0;
+  color: #393e46;
 }
 div.Nav_Bar {
   position: absolute;
@@ -70,6 +66,7 @@ div.Foot {
 div.img-banner {
   display: flex;
   justify-content: center;
+  padding-top: 3%;
 }
 div.png-banner {
   height: 80vh;

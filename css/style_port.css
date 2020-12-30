@@ -12,9 +12,10 @@
   src: url(../webfonts/Quark-Light.otf);
 }
 body {
-  background-color: rgb(220, 244, 255);
+  background-color: rgb(255, 242, 229);
   font-family: Quark-Bold;
   margin: 0;
+  color: #393e46;
 }
 div.Nav_Bar {
   position: absolute;
@@ -50,13 +51,65 @@ div.Head {
 div.Content {
   grid-area: 2/1;
   width: 100%;
-  height: 80vh;
+  height: auto;
 }
 div.Foot {
   grid-area: 3/1;
   width: 100%;
-  height: 15%;
   height: 5vh;
+  background-color: black;
 }
 
 /*------Port------*/
+div.Content {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+}
+div.head-text {
+  grid-area: 1/1;
+  font-size: 70px;
+  text-align: center;
+}
+div.head-sub-text {
+  font-size: 50px;
+  padding-bottom: 40px;
+  padding-top: 35px;
+  padding-left: 10%;
+}
+div.box-prototype {
+  grid-area: 2/1;
+}
+div.box-system {
+  grid-area: 3/1;
+}
+div.item-content {
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  padding-left: 5%;
+}
+div.item-name {
+  grid-area: 1 / 2;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+div.item-pic {
+  grid-area: 2/1;
+}
+div.item-detail {
+  padding-left: 10%;
+  grid-area: 2/2;
+  font-family: Quark-Light;
+  font-size: 25px;
+}
+img.pic {
+  width: 100%;
+}
+a.moredetail {
+  padding-right: 10%;
+  float: right;
+}

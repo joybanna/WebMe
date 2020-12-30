@@ -15,6 +15,7 @@ body {
   background-color: rgb(220, 244, 255);
   font-family: Quark-Bold;
   margin: 0;
+  color: #393e46;
 }
 div.Nav_Bar {
   position: absolute;
@@ -194,6 +195,7 @@ div.box-personal {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 10px;
+  padding-left: 10%;
   padding-left: 10%;
 }
 img.icon-toppic-r {
