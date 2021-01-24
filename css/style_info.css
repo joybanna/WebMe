@@ -258,3 +258,12 @@ div.box8-1 {
 div.box8-2 {
   grid-area: 8/2;
 }
+div.contact > img {
+  alt: Cinque Terre;
+}
+div.contact > a {
+  text-decoration: none;
+  padding-top: 10px;
+  font-family: Quark-Light;
+  color: white;
+}
