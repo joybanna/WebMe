@@ -50,8 +50,10 @@ div.Head {
 }
 div.Content {
   grid-area: 2/1;
-  width: 100%;
+  width: 80%;
   height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 div.Foot {
   grid-area: 3/1;

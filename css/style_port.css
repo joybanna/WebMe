@@ -41,12 +41,13 @@ a.button_Nav:active {
 body {
   display: grid;
   grid-template-rows: auto auto auto;
-  grid-gap: 10px;
+  background-color: #bbe1fa;
 }
 div.Head {
   grid-area: 1/1;
   width: 100%;
   height: 10vh;
+  background-color: #bbe1fa;
 }
 div.Content {
   grid-area: 2/1;
@@ -71,6 +72,7 @@ div.head-text {
   grid-area: 1/1;
   font-size: 80px;
   text-align: center;
+  background-color: #bbe1fa;
 }
 div.head-sub-text {
   font-size: 50px;
