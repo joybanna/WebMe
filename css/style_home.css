@@ -12,10 +12,11 @@
   src: url(../webfonts/Quark-Light.otf);
 }
 body {
-  background-color: rgb(69, 80, 101);
+  background-color: #1b2230;
   font-family: Quark-Bold;
   margin: 0;
-  color: #393e46;
+  background-image: linear-gradient(to bottom right, rgb(69, 80, 101), #1b2230);
+  height: 100vh;
 }
 div.Nav_Bar {
   position: absolute;
@@ -26,7 +27,7 @@ div.Nav_Bar {
 }
 a.button_Nav:link,
 a.button_Nav:visited {
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 10px;
   text-align: center;
   display: inline-block;
@@ -34,7 +35,7 @@ a.button_Nav:visited {
 }
 a.button_Nav:hover,
 a.button_Nav:active {
-  color: rgb(163, 163, 163);
+  color: rgb(128, 128, 128);
   font-size: 101%;
   transition: 0.5s;
 }
@@ -65,8 +66,8 @@ div.Foot {
 /*------Home------*/
 div.img-banner {
   display: flex;
-  justify-content: center;
-  padding-top: 3%;
+  /*justify-content: center;*/
+  padding-top: 1%;
 }
 div.png-banner {
   height: 80vh;

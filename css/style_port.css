@@ -12,7 +12,12 @@
   src: url(../webfonts/Quark-Light.otf);
 }
 body {
-  background-color: rgb(255, 242, 229);
+  background: linear-gradient(
+    356deg,
+    rgba(200, 200, 200, 1) 0%,
+    rgba(218, 218, 218, 1) 34%,
+    rgba(255, 255, 255, 1) 100%
+  );
   font-family: Quark-Bold;
   margin: 0;
   color: #393e46;
@@ -41,13 +46,11 @@ a.button_Nav:active {
 body {
   display: grid;
   grid-template-rows: auto auto auto;
-  background-color: #bbe1fa;
 }
 div.Head {
   grid-area: 1/1;
   width: 100%;
   height: 10vh;
-  background-color: #bbe1fa;
 }
 div.Content {
   grid-area: 2/1;
@@ -58,7 +61,7 @@ div.Foot {
   grid-area: 3/1;
   width: 100%;
   height: 5vh;
-  background-color: black;
+  background: black;
 }
 
 /*------Port------*/
@@ -72,7 +75,6 @@ div.head-text {
   grid-area: 1/1;
   font-size: 80px;
   text-align: center;
-  background-color: #bbe1fa;
 }
 div.head-sub-text {
   font-size: 50px;
