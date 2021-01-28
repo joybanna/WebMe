@@ -63,6 +63,13 @@ div.Foot {
   height: 5vh;
   background: black;
 }
+div.Contact > a {
+  float: right;
+  font-family: Quark-Light;
+  color: white;
+  padding-right: 40px;
+  padding-top: 10px;
+}
 
 /*------Port------*/
 div.Content {

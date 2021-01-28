@@ -66,6 +66,13 @@ div.Foot {
   height: 5vh;
   background-color: black;
 }
+div.Contact > a {
+  float: right;
+  font-family: Quark-Light;
+  color: white;
+  padding-right: 40px;
+  padding-top: 10px;
+}
 
 /*------Prototype------*/
 div.head-text {
@@ -94,12 +101,9 @@ ul {
 div.Github-text {
   text-align: center;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 div.Github-text > a {
   color: #393e46;
   text-decoration: none;
-}
-div.Github-text:hover {
-  font-size: 27px;
-  transition: 0.5s;
 }

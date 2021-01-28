@@ -12,10 +12,15 @@
   src: url(../webfonts/Quark-Light.otf);
 }
 body {
-  background-color: #1b2230;
   font-family: Quark-Bold;
   margin: 0;
-  background-image: linear-gradient(to bottom right, rgb(69, 80, 101), #1b2230);
+  background-image: url(../img/home_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  /*background-image: linear-gradient(to bottom right, rgb(69, 80, 101), #1b2230);*/
   height: 100vh;
 }
 div.Nav_Bar {
