@@ -1,11 +1,11 @@
 import React from 'react'
 
-function NaveBar({color}) {
+function NaveBar() {
   return (
     <div id='Nav_Bar'>
-       <a className="button_Nav" href='#'>Home</a>
-         <a className='button_Nav' href='#'>About</a>
-            <a className='button_Nav' href='#'>Contact</a>
+       <a className="button_Nav" href='/WebMe/profile'>Profile</a>
+            <a className='button_Nav' href='/WebMe/portfolio'>Portfolio</a>
+            <a className='button_Nav' href='/WebMe/contact'>Contact</a>
 
     </div>
   )

@@ -1,10 +1,10 @@
 
 
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 /* Nav-bar */
 div.Nav_Bar {
@@ -16,7 +16,7 @@ div.Nav_Bar {
 }
 a.button_Nav:link,
 a.button_Nav:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(236, 16, 16);
   padding: 10px;
   text-align: center;
   display: inline-block;

@@ -1,0 +1,21 @@
+div.Nav_Bar {
+    position: absolute;
+    font-size: 25px;
+    right: 10px;
+    text-align: right;
+    margin-top: 10px;
+  }
+  a.button_Nav:link,
+  a.button_Nav:visited {
+    color: rgb(202, 202, 202);
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+  }
+  a.button_Nav:hover,
+  a.button_Nav:active {
+    color: rgb(71, 71, 71);
+    font-size: 101%;
+    transition: 0.5s;
+  }

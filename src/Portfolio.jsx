@@ -1,7 +1,7 @@
 import React from 'react'
-import '../css/port.css'
-import DataProject from './DataProject'
-import PC from './ProjectCard'
+import '../src/css/port.css'
+import DataProject from '../src/components/DataProject'
+import PC from '../src/components/ProjectCard'
 
 export default function Portfolio() {
   return (

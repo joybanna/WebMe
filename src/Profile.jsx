@@ -1,0 +1,220 @@
+import React from 'react'
+import '../src/css/profile.css'
+
+function Profile() {
+  return (
+    <div>
+      <div class="Content">
+    <div class="profile_pic">
+      <div class="img"></div>
+      <div class="short-data">
+        <a class="head-name-text">Kritsana Sanaepood</a><br />
+        <a class="sub-text-wh"
+          >95/211 , Saimai Road , Saimai , Saimai , Bangkok , 10220</a
+        ><br />
+        <a class="sub-text-wh">Tel. 091-0474856</a><br />
+        <a class="sub-text-wh">Email : joybanna@gmail.com</a><br />
+      </div>
+    </div>
+    <div class="bank-1">
+      <img class="icon-toppic-r" src="img/055-cursor.png" />
+    </div>
+    <div class="profile_objective">
+      <div class="toppic-text-l">Objective</div>
+      <div class="box-personal">
+        <div class="box1-1">
+          <a class="sub-text"
+            >A fresh graduate of Game Development. Looking for a career as a
+            Software developer by C# language. Want to be a part of the
+            Software development that is popular in the Software industry.</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="bank-2">
+      <img class="icon-toppic-l" src="img/038-id card.png" />
+    </div>
+    <div class="profile_personal">
+      <div class="toppic-text-r">Personal Data</div>
+      <div class="box-personal">
+        <div class="box1-1"><a class="sub-text">Date of Birth</a></div>
+        <div class="box1-2"><a class="sub-text">: 26-09-1997</a></div>
+        <div class="box2-1"><a class="sub-text">Age</a></div>
+        <div class="box2-2"><a class="sub-text">: 23</a></div>
+        <div class="box3-1"><a class="sub-text">Height</a></div>
+        <div class="box3-2"><a class="sub-text">: 175</a></div>
+        <div class="box4-1"><a class="sub-text">Weight</a></div>
+        <div class="box4-2"><a class="sub-text">: 60</a></div>
+        <div class="box5-1"><a class="sub-text">Nationality</a></div>
+        <div class="box5-2"><a class="sub-text">: Thailand</a></div>
+        <div class="box6-1"><a class="sub-text">Gender</a></div>
+        <div class="box6-2"><a class="sub-text">: Male</a></div>
+        <div class="box7-1"><a class="sub-text">Marital Status</a></div>
+        <div class="box7-2"><a class="sub-text">: Single</a></div>
+        <div class="box8-1"><a class="sub-text">Military Status</a></div>
+        <div class="box8-2"><a class="sub-text">: Exempted</a></div>
+      </div>
+    </div>
+    <div class="bank-3">
+      <img class="icon-toppic-r" src="img/031-book.png" />
+    </div>
+    <div class="profile_education">
+      <div class="toppic-text-l">Education</div>
+      <div class="box-personal">
+        <div class="box1-1"><a class="sub-text">2011 - 2016</a></div>
+        <div class="box1-2">
+          <a class="sub-text"><b>Rittiyawannalai Schoo</b>l</a>
+        </div>
+        <div class="box2-2">
+          <a class="sub-text"> Science - Math GPA 3.72</a>
+        </div>
+        <div class="box3-1"><a class="sub-text">2016 - 2020</a></div>
+        <div class="box3-2">
+          <a class="sub-text"
+            ><b>King Mongkut's university of Technology Thonburi</b></a
+          >
+        </div>
+        <div class="box4-2">
+          <a class="sub-text">
+            Game Development of Media Technology <br />
+            GPA 3.45 (Second class honours)</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="bank-4">
+      <img class="icon-toppic-l" src="img/013-layers.png" />
+    </div>
+    <div class="profile_workingEXP">
+      <div class="toppic-text-r">Experiece</div>
+      <div class="box-personal">
+        <div class="box1-1">
+          <a class="sub-text">December 2016 - December 2016</a>
+        </div>
+        <div class="box1-2">
+          <a class="sub-text"><b>Camp</b> </a>
+        </div>
+        <div class="box2-2"><a class="sub-text">Volunteer</a></div>
+        <div class="box3-1">
+          <a class="sub-text">May 2017 - June 2017 </a>
+        </div>
+        <div class="box3-2">
+          <a class="sub-text"><b>Idea Camp</b> </a>
+        </div>
+        <div class="box4-2"><a class="sub-text">Staff Organizer</a></div>
+        <div class="box5-1">
+          <a class="sub-text">August 2018 - October 2018</a>
+        </div>
+        <div class="box5-2">
+          <a class="sub-text"
+            ><b> The Twenty-first national Software Contest : NSC 2019</b>
+          </a>
+        </div>
+        <div class="box6-2"><a class="sub-text">Unity Developer</a></div>
+        <div class="box7-1">
+          <a class="sub-text">August 2019 - December 2019</a>
+        </div>
+        <div class="box7-2">
+          <a class="sub-text"><b>Internship at Varisoft</b> </a>
+        </div>
+        <div class="box8-2">
+          <a class="sub-text">Unity Developer</a>
+        </div>
+      </div>
+    </div>
+    <div class="bank-5">
+      <img class="icon-toppic-r" src="img/096-idea.png" />
+    </div>
+    <div class="profile_Skill">
+      <div class="toppic-text-l">Skills</div>
+      <div class="box-personal">
+        <div class="box1-1">
+          <a class="sub-text"><b>Unity Engine</b> </a>
+        </div>
+        <div class="box1-2">
+          <a class="sub-text">
+            <ul>
+              <li>Create 2D/3D Offline/Online Game</li>
+              <li>Manage & Optimize Game (asset,code)</li>
+              <li>Understand work space</li>
+              <li>Understand most of the components</li>
+              <li>Experience using at least 4 years</li>
+            </ul>
+          </a>
+        </div>
+        <div class="box2-1">
+          <a class="sub-text"><b>C#</b> </a>
+        </div>
+        <div class="box2-2">
+          <a class="sub-text">
+            <ul>
+              <li>Use C# for Unity Engine</li>
+              <li>Use C# for modify asset Unity</li>
+              <li>Understand most of the components</li>
+              <li>Experience using at least 4 years</li>
+            </ul>
+          </a>
+        </div>
+        <div class="box3-1">
+          <a class="sub-text"><b>HTML/CSS</b> </a>
+        </div>
+        <div class="box3-2">
+          <a class="sub-text">
+            <ul>
+              <li>Create basic webpage</li>
+              <li>Decorate basic webpage by CSS</li>
+            </ul>
+          </a>
+        </div>
+        <div class="box4-1">
+          <a class="sub-text"><b>Maya </b> </a>
+        </div>
+        <div class="box4-2">
+          <a class="sub-text">
+            <ul>
+              <li>Create basic model</li>
+              <li>Create UV map texture for model</li>
+              <li>Insert texture on model</li>
+              <li>Rigging basic model</li>
+              <li>Basic animate model</li>
+            </ul>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="reference">
+      <div class="toppic-text-r">Reference</div>
+      <div class="box-personal">
+        <div class="box1-1">
+          <a class="sub-text"><b>Transcript</b> </a>
+        </div>
+        <div class="box1-2">
+          <a class="sub-text">
+            <ul>
+              <li><a href="img/transcript.png">Image file </a></li>
+              <li><a href="img/transcript.pdf">PDF file</a></li>
+            </ul>
+          </a>
+        </div>
+        <div class="box2-1">
+          <a class="sub-text"><b>Resume</b> </a>
+        </div>
+        <div class="box2-2">
+          <a class="sub-text">
+            <ul>
+              <li><a href="img/resume.1.png"> Image file</a></li>
+              <li><a href="img/resume1.1.pdf"> PDF file</a></li>
+            </ul>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="bank-6">
+      <img class="icon-toppic-l" src="img/053-file.png" />
+    </div>
+  </div>
+  </div>
+  )
+}
+
+export default Profile
