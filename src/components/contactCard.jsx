@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/contactCard.css'
+import '../css/componets/contactCard.css'
 
 function contactCard({name, img, info,hf}) {
   return (
