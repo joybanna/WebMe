@@ -7,6 +7,7 @@ import Profile from './Profile'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import PageProject from './PageProject'
+import Foot from './components/Foot'
 
 const root = document.getElementById('root')
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </Route>
     </Routes>
     </BrowserRouter>
+    <Foot />
   </StrictMode>
 )
 

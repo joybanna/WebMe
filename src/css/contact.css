@@ -3,10 +3,10 @@ a.head_contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 500px;
   font-size: 77px;
   margin-bottom: 60px;
-  color: white;
+  color: grey;
 }
 
 div.group-contact {

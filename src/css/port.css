@@ -1,16 +1,4 @@
-/*------Port------*/
-@font-face {
-  font-family: Quark-Bold;
-  src: url(../webfonts/Quark-Bold.otf);
-}
-@font-face {
-  font-family: LeagueSpartan;
-  src: url(../webfonts/LeagueSpartan-Bold.otf);
-}
-@font-face {
-  font-family: Quark-Light;
-  src: url(../webfonts/Quark-Light.otf);
-}
+
 div.Content_Portfolio {
   background: linear-gradient(
     356deg,
@@ -51,34 +39,3 @@ div.box-content {
   padding-left: 10%;
 }
 
-div.projectcard{
-  position: relative;
-  margin-bottom :20px;
-  box-sizing: border-box;
-  display: block;
-  unicode-bidi: isolate;
-  flex: 0 0 auto;
-  width: 33.33%;
-
-}
-div.projectcard_img {
-  width: 90%;
-}
-a.projectcard_link {
-  color: black;
-}
-div.project_more{
-  position: relative;
-  left: 25px;
-  bottom: 0px;
-  text-align: center;
-  right: 0;
-} 
-
-img.project_img{
-
-    vertical-align: middle;
-    transition: all .4s ease-out 0s;
-    /* width: 100%; */
-    /* transform: scale(1); */
-}

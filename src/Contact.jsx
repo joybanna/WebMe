@@ -11,11 +11,7 @@ function Contact() {
         {DataContact().map((data) => <ContactCardItem name={data.name} img={data.img} info={data.info} hf={data.hf} />)}
       </div>
     </div>
-      <footer>
-        <div class="Foot">
-          <div class="Contact"></div>
-        </div>
-      </footer></div>
+    </div>
   )
 }
 
