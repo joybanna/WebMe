@@ -16,8 +16,9 @@ div.group-contact {
   grid-gap: 40px;
   padding-left: 10%;
   padding-right: 10%;
-}
 
+  
+}
 .group-contact>div {
   width: 350px;
   padding-top: 7%;

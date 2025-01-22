@@ -1,5 +1,5 @@
 
-div.Content_Portfolio {
+/* div.Content_Portfolio {
   background: linear-gradient(
     356deg,
     rgba(200, 200, 200, 1) 0%,
@@ -9,16 +9,23 @@ div.Content_Portfolio {
   font-family: Quark-Bold;
   margin: 0;
   color: #393e46;
-}
+} */
 
 div.head-text {
-  grid-area: 1/1;
-  width: 100%;
-  height: 10vh;
+  font-size: 80px;
+  font-family: Quark-Light;
+}
+a.grouup-type{
+  font-size: 40px;
+  font-family: Quark-Light;
+}
+a.project-name{
+  font-size: 20px;
+  font-family: Quark-Light;
 }
 
 /*------Port------*/
-div.box-content {
+/* div.box-content {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
@@ -37,5 +44,5 @@ div.box-content {
   grid-gap: 20px;
   padding: 10px;
   padding-left: 10%;
-}
+} */
 
