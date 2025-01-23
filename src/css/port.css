@@ -1,0 +1,48 @@
+
+/* div.Content_Portfolio {
+  background: linear-gradient(
+    356deg,
+    rgba(200, 200, 200, 1) 0%,
+    rgba(218, 218, 218, 1) 34%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: Quark-Bold;
+  margin: 0;
+  color: #393e46;
+} */
+
+div.head-text {
+  font-size: 80px;
+  font-family: Quark-Light;
+}
+a.grouup-type{
+  font-size: 40px;
+  font-family: Quark-Light;
+}
+a.project-name{
+  font-size: 20px;
+  font-family: Quark-Light;
+}
+
+/*------Port------*/
+/* div.box-content {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+}
+div.head-text-type {
+  grid-area: 1/1;
+  font-size: 80px;
+  text-align: center;
+}
+
+div.box-content {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  padding-left: 10%;
+} */
+

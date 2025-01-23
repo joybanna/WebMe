@@ -1,0 +1,29 @@
+/*------contact------*/
+a.head_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  font-size: 77px;
+  margin-bottom: 60px;
+  color: grey;
+}
+
+div.group-contact {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  
+}
+.group-contact>div {
+  width: 350px;
+  padding-top: 7%;
+  height: 450px;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border-radius: 25px;
+}

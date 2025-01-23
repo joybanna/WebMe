@@ -1,0 +1,287 @@
+/*------Info------*/
+/* body {
+    font-family: Quark-Bold;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+  } */
+/* div.Head {
+    grid-area: 1/1;
+    width: 100%;
+    height: 10vh;
+    background-color: #1b2230;
+  } */
+
+div.Contact>a {
+  float: right;
+  font-family: Quark-Light;
+  color: white;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+/*------Info------*/
+/* div.Content_Profile {
+  display: grid;
+  grid-area: 2/1;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  background-color: gray;
+} */
+
+/* .Content>div {
+  padding-bottom: 70px;
+} */
+
+div.profile_pic {
+  background-color: #1b2230;
+  grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: auto 60%;
+  height: 100%;
+  margin-bottom: 10%;
+}
+
+/* background-color: #00bcd5; */
+/* background-color: #eb447c; */
+
+/* div.profile_objective {
+  grid-area: 2/2;
+  height: 250px;
+  padding: 10px;
+  padding-top: 70px;
+  height: auto;
+} */
+
+/* div.profile_personal {
+  padding-top: 70px;
+  padding-left: 20px;
+
+
+  grid-area: 3/1;
+  padding: 10px;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+} */
+
+/* div.profile_education {
+  padding-top: 70px;
+  grid-area: 4/2;
+  padding: 10px;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+div.profile_workingEXP {
+  padding-top: 70px;
+  grid-area: 5/1;
+  padding: 10px;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+div.profile_Skill {
+  padding-top: 70px;
+  grid-area: 6/2;
+  padding: 10px;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+div.reference {
+  padding-top: 70px;
+  grid-area: 7/1;
+  padding: 10px;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+} */
+
+@keyframes imgAnimate {
+  0% {
+    background-image: url(../img/pro_pic1.1.png);
+  }
+
+  5% {
+    background-image: url(../img/pro_pic3.1.png);
+  }
+
+  85% {
+    background-image: url(../img/pro_pic1.1.png);
+  }
+
+  89% {
+    background-image: url(../img/pro_pic3.1.png);
+  }
+
+  93% {
+    background-image: url(../img/pro_pic2.1.png);
+  }
+}
+
+@keyframes imgAnimate1 {
+  0% {
+    background-image: url(../img/pro_pic2.1.png);
+  }
+}
+
+/* div.img {
+  height: 450px;
+  width: 400px;
+  background-image: url(../img/pro_pic1.1.png);
+  animation-name: imgAnimate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 20px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.img:hover {
+  height: 450px;
+  width: 400px;
+  background-image: url(../img/pro_pic2.1.png);
+  animation-name: imgAnimate1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 20px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+div.short-data {
+  padding: 20px;
+}
+
+a.head-name-text {
+  font-family: Quark-Bold;
+  font-size: 105px;
+  color: white;
+}
+
+.sub-text {
+  font-family: Quark-Light;
+  font-size: 20px;
+}
+.sub-text-title {
+  font-family: Quark-Light;
+  font-size: 25px;
+}
+.sub-text-title-a {
+  font-family: Quark-Light;
+  font-size: 23px;
+}
+
+a.sub-text-wh {
+  font-family: Quark-Light;
+  font-size: 25px;
+  color: white;
+}
+
+.toppic-text-r {
+  font-family: Quark-Bold;
+  text-align: center;
+  padding-right: 10%;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+div.toppic-text-l {
+  font-family: Quark-Bold;
+  text-align: center;
+  padding-left: 10%;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+div.box-personal>a {
+  text-decoration: none;
+}
+
+div.box-personal {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding-left: 10%;
+  padding-left: 10%;
+}
+
+img.icon-toppic-r {
+  float: right;
+  height: 200px;
+}
+
+img.icon-toppic-l {
+  float: left;
+  height: 200px;
+}
+
+/* div.box1-1 {
+    grid-area: 1/1;
+  }
+  div.box1-2 {
+    grid-area: 1/2;
+  }
+  div.box2-1 {
+    grid-area: 2/1;
+  }
+  div.box2-2 {
+    grid-area: 2/2;
+  }
+  div.box3-1 {
+    grid-area: 3/1;
+  }
+  div.box3-2 {
+    grid-area: 3/2;
+  }
+  div.box4-1 {
+    grid-area: 4/1;
+  }
+  div.box4-2 {
+    grid-area: 4/2;
+  }
+  div.box5-1 {
+    grid-area: 5/1;
+  }
+  div.box5-2 {
+    grid-area: 5/2;
+  }
+  div.box6-1 {
+    grid-area: 6/1;
+  }
+  div.box6-2 {
+    grid-area: 6/2;
+  }
+  div.box7-1 {
+    grid-area: 7/1;
+  }
+  div.box7-2 {
+    grid-area: 7/2;
+  }
+  div.box8-1 {
+    grid-area: 8/1;
+  }
+  div.box8-2 {
+    grid-area: 8/2;
+  } */
+/* div.contact>img {
+  alt: Cinque Terre;
+} */
+
+/* li>a {
+  font-family: Quark-Light;
+  font-size: 20px;
+  text-decoration: none;
+  color: #393e46;
+} */
