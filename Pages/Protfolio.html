@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/Scripts/Nav.js" ></script>
+</head>
+<body>
+    <header>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav id="nav"></nav>
+    </header>
+    <main>
+        <section>
+            <h2>Projects</h2>
+            <article>
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </article>
+            <article>
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </article>
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>
+
+<!-- Reusable Navbar Component -->
+<!-- <template id="navbar-template">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</template>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const template = document.getElementById('navbar-template');
+        const clone = document.importNode(template.content, true);
+        document.querySelector('header').appendChild(clone);
+    });
+</script> -->
+
+<!-- Reusable Footer Component -->
+<template id="footer-template">
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</template>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const template = document.getElementById('footer-template');
+        const clone = document.importNode(template.content, true);
+        document.body.appendChild(clone);
+    });
+</script>;

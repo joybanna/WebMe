@@ -11,9 +11,8 @@ import Doc from './components/profile_document_part'
 
 function Profile() {
   return (
-    <div>
-      <div class="Content_Profile">
-      </div>
+
+    <div class="Content_Profile">
       <HeadProfile />
       <Objective />
       <Personal />
@@ -22,6 +21,8 @@ function Profile() {
       <Skill />
       <Doc />
     </div>
+
+
   )
 }
 

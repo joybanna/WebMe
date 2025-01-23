@@ -2,7 +2,7 @@
 import { StrictMode } from 'react'
 import App from './App'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Profile from './Profile'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
@@ -13,18 +13,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
     <App />
-    <BrowserRouter>
+    <HashRouter>
       <Routes >
-        <Route path='/' element={<Profile />} />
-        <Route path='/WebMe/' element={<Profile />} />
+        <Route path='/WebMe' element={<Profile />} />
+        <Route path='/WebMe/profile' element={<Profile />} />
         <Route path='/WebMe/portfolio' element={<Portfolio />} />
         <Route path='/WebMe/contact' element={<Contact />} />
         <Route path='/WebMe/projects/' >
           <Route path=':project' element={<PageProject />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-    <Foot />
+    </HashRouter>
+    {/* <Foot /> */}
   </StrictMode>
 )
 
