@@ -1,10 +1,37 @@
 function CreateContactCard(data) {
     var card = document.createElement('div');
     card.className = 'contact-card';
-    card.innerHTML = `
-        <h2>${data.name}</h2>
-        <img src="${data.img}" alt="${data.name}">
-        <a href =${data.hf}>${data.info}</a>`;
+    card.style.width = '300px';
+    card.style.height = '300px';
+    card.style.backgroundColor = 'white';
+    card.style.borderRadius = '10px';
+    card.style.margin = '10px';
+    card.style.padding = '10px';
+    card.style.textAlign = 'center';
+    card.style.boxShadow = '0 4px 8px 0 rgba(0,0,0,0.2)';
+    card.style.transition = '0.3s';
+    card.style.alignItems = 'center';
+    card.style.display = 'grid';
+    card.style.gridTemplateRows = 'auto auto auto';
+    card.innerHTML = `<h2>${data.name}</h2>`;
+    var icon = document.createElement('img');
+    icon.src = data.img;
+    icon.alt = data.name;
+    icon.style.width = '100px';
+    icon.style.height = '100px';
+    icon.style.justifyContent = 'center';
+    icon.style.alignItems = 'center';
+    icon.style.display = 'flex';
+    icon.style.margin = '0 auto';
+    icon.style.padding = '0';
+    card.appendChild(icon);
+    var info = document.createElement('a');
+    info.href = data.hf;
+    info.innerHTML = data.info;
+    card.appendChild(info);
+
+    // <img class='max-w-36' src="${data.img}" alt="${data.name}" >
+    // <a href =${data.hf}>${data.info}</a>`;
     return card;
 }
 function DataContact() {
@@ -45,6 +72,10 @@ function DataContact() {
 function ShowContactCard() {
     document.addEventListener('DOMContentLoaded', () => {
         const contactCard = document.getElementById('contact-card');
+        contactCard.style.display = 'grid';
+        contactCard.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';
+        contactCard.style.justifyContent = 'center';
+        contactCard.style.padding = '10%';
         const list = DataContact();
         console.log(list.length);
         list.map(data => {

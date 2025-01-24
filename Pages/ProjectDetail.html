@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Port</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href='../src/css/componets/nav.css'>
+    <!-- <script>
+        function getParameterByName(name) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var url = window.location.href;
+            console.log(url);
+            const params = new URLSearchParams(document.location.search);
+            var page = params.get('page');
+            console.log(page);
+
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+            console.log(regex);
+            var results = regex.exec(url);
+            console.log(results);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var paramValue = getParameterByName('param');
+            if (paramValue) {
+                document.getElementById('paramDisplay').textContent = paramValue;
+                console.log(paramValue);
+            }
+            console.log(paramValue);
+        });
+    </script> -->
+
+    <div id="nav"></div>
+    <script type="text/javascript" src="../Scripts/Nav.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Item Port</h1>
+    </header>
+    <main>
+        <h2>Featured Items</h2>
+        <p>Here you can find a selection of our featured items.</p>
+        <div id="paramDisplay"></div>
+        <script text="text/javascript" src="../Scripts/ReadParameter.js"></script>
+    </main>
+    <footer id="footer"></footer>
+    <script type="text/javascript" src="../Scripts/Footer.js"></script>
+</body>
+
+</html>
