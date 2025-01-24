@@ -205,3 +205,7 @@ function DataProject(isPersonal) {
     return isPersonal ? personalList : companyList;
 
 }
+
+// module.exports.DataProject = DataProject;
+
+export { DataProject };
