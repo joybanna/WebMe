@@ -10,39 +10,23 @@
     <div id="nav"></div>
     <script type="text/javascript" src="../Scripts/Nav.js"></script>
 </head>
+
 <body>
     <div className='Content_project'>
         <div id='head_text'></div>
-        <div className='carousel-container'>
-            <div class="carousel-slide-container">
-                <img class="carousel-img" src="https://loremflickr.com/200/200?random=1" alt="" />
-                <img class="carousel-img" src="https://loremflickr.com/200/200?random=1"  alt=""/>
-                <img class="carousel-img" src="https://loremflickr.com/200/200?random=1"  alt=""/>
-            </div>
+        <div className='carousel-container' id="carousel-content">
 
-            <div class="carousel-dot">
-                <span data-item="0" class="dot active"></span>
-                <span data-item="1" class="dot"></span>
-                <span data-item="2" class="dot"></span>
-                <span data-item="3" class="dot"></span>
+            <div class="carousel-dot" id="carousel-dot">
             </div>
-
-            <div id="nextBtn" class="btn-right " >
-                &#10095;
-            </div>
-            <div id="prevBtn" class="btn-left" >
-                &#10094;
-            </div>
-
         </div>
         <div className='project_info'>
-            <a className='info_project'>details XXXX</a>
+            <a className='info_project' id="description"></a>
         </div>
-        <div className='project_feature'>
+        <div className='project_feature' id='feature'>
             <a className='feature_project'>Feature</a>
-            <!-- <ul>
-                Feature XXXX
-            </ul> -->
+        </div>
+
+        <div class="" id="reference">
         </div>
     </div>
     <footer id="footer"></footer>
