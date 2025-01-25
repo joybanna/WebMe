@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    .mySlides {
+        display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+        cursor: pointer
+    }
+
+    .w3-badge {
+        height: 13px;
+        width: 13px;
+        padding: 0
+    }
+
+    .carousel-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+</style>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Item Port</title>
+    <title>Project</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href='../src/css/componets/nav.css'>
-    <div id="nav"></div>
-    <script type="text/javascript" src="../Scripts/Nav.js"></script>
+    <link rel="stylesheet" href="../src/css/colorTheme.css">
 </head>
 
 <body>
-    <div className='Content_project'>
-        <div id='head_text'></div>
-        <div className='carousel-container' id="carousel-content">
+    <div id="nav"></div>
+    <header class="w3-container w3-theme-d1" style="padding:64px 32px">
+        <div id='head_text' class="w3-xxxlarge"></div>
+    </header>
+    <div class="w3-theme-l5">
+        <div className='w3-content' id="project-detail">
+            <div id='head_text'></div>
+            <div class='w3-content w3-display-container' style="max-width: 800px" id="carousel-content">
+            </div>
+            <div className='project_info'>
+                <a className='info_project' id="description"></a>
+            </div>
+            <div className='project_feature' id='feature'>
+                <a className='feature_project'>Feature</a>
+            </div>
 
-            <div class="carousel-dot" id="carousel-dot">
+            <div class="" id="reference">
             </div>
         </div>
-        <div className='project_info'>
-            <a className='info_project' id="description"></a>
-        </div>
-        <div className='project_feature' id='feature'>
-            <a className='feature_project'>Feature</a>
-        </div>
-
-        <div class="" id="reference">
-        </div>
     </div>
+
     <footer id="footer"></footer>
+    <script type="text/javascript" src="../Scripts/Nav.js"></script>
     <script type="text/javascript" src="../Scripts/Footer.js"></script>
     <script type="text/javascript" src="../Scripts/PageProjectDetail.js"></script>
 </body>

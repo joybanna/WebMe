@@ -24,38 +24,70 @@ function WriteHead(data) {
 
 function WriteImgContent(data) {
     var content = document.getElementById('carousel-content');
-    var mainContent = document.createElement('div');
-    mainContent.className = 'carousel-slide-container';
     data.imgs.map((img) => {
+        var iContent = document.createElement('div');
+        iContent.className = 'w3-display-container mySlides';
         var imgContent = document.createElement('img');
         imgContent.src = img;
         imgContent.alt = img;
-        imgContent.className = 'carousel-img';
-        mainContent.appendChild(imgContent);
+        imgContent.style = 'width:100%';
+        iContent.appendChild(imgContent);
+        content.appendChild(iContent);
     });
-    content.appendChild(mainContent);
 
-    var carouselDot = document.getElementById('carousel-dot');
-    data.imgs.map((img, index) => {
-        var dot = document.createElement('span');
-        dot.className = 'dot';
-        dot.setAttribute('onclick', 'currentSlide(' + index + ')');
-        carouselDot.appendChild(dot);
-    });
+    var carouselDot = document.createElement('div');
+    carouselDot.className = 'w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle';
+    carouselDot.style = 'width:100%';
     content.appendChild(carouselDot);
 
-    var nextBtn = document.createElement('div');
-    nextBtn.className = 'btn-right';
-    nextBtn.id = 'nextBtn';
-    nextBtn.innerHTML = '&#10095;';
+    var leftBtn = document.createElement('div');
+    leftBtn.className = 'w3-left w3-hover-text-khaki';
+    leftBtn.onclick = function () { plusDivs(-1) };
+    leftBtn.innerHTML = '&#10094;';
+    carouselDot.appendChild(leftBtn);
 
-    var prevBtn = document.createElement('div');
-    prevBtn.className = 'btn-left';
-    prevBtn.id = 'prevBtn';
-    prevBtn.innerHTML = '&#10094;';
+    var rightBtn = document.createElement('div');
+    rightBtn.className = 'w3-right w3-hover-text-khaki';
+    rightBtn.onclick = function () { plusDivs(1) };
+    rightBtn.innerHTML = '&#10095;';
+    carouselDot.appendChild(rightBtn);
 
-    content.appendChild(nextBtn);
-    content.appendChild(prevBtn);
+    data.imgs.map((img, index) => {
+        var dot = document.createElement('span');
+        dot.className = 'w3-badge demo w3-border w3-transparent w3-hover-white';
+        dot.onclick = function () { currentDiv(index + 1) };
+        carouselDot.appendChild(dot);
+    });
+
+
+
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+    showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = x.length }
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    // x[slideIndex - 1].style.display = "block";
+    // dots[slideIndex - 1].className += " w3-white";
 }
 
 function WriteDescription(data) {
@@ -383,7 +415,7 @@ function ProjectsDetail() {
     }
 
 
-    const projectList = [monopoly, stealth, help, typingTyohoon, desir, theLost, skyShooter, findMe, 
+    const projectList = [monopoly, stealth, help, typingTyohoon, desir, theLost, skyShooter, findMe,
         towerDefence, popit, stealGame, drawpuzzle, pathpuzzle, superslime, monsterdraft, mergehero, savethedog, watersort, hairsalon, parkescape, findit];
     return projectList;
 }
