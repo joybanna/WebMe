@@ -74,7 +74,7 @@ function ShowContactCard() {
         const contactCard = document.getElementById('contact-card');
         contactCard.className = "w3-row-padding w3-row-padding w3-theme-l5";
         contactCard.style.minHeight = '75vh';
-        contactCard.style.marginTop = '100px';
+        contactCard.style.paddingTop = '100px';
         contactCard.style.paddingLeft = '1vw';
         // contactCard.style.display = 'grid';
         // contactCard.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';

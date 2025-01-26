@@ -10,9 +10,12 @@ WriteExperience();
 
 function GetExperience() {
     var feild = document.getElementById("experiences-feild");
+    var box = document.createElement("div");
+    box.className = "w3-padding-top-48";
+    feild.appendChild(box);
     var data = DataExperience();
     data.forEach(element => {
-        feild.appendChild(ExperienceCard(element));
+        box.appendChild(ExperienceCard(element));
     });
 }
 
@@ -29,9 +32,9 @@ function ExperienceCard(data) {
 
 function DateExperience(data) {
     var dateBox = document.createElement("div");
-    dateBox.className = "w3-col s6 w3-margin-bottom w3-margin-top w3-left-align";
+    dateBox.className = "w3-col s6 w3-margin-bottom w3-margin-top";
     var date = document.createElement("a");
-    date.className = "sub-text";
+    date.className = "sub-text w3-xlarge";
     date.innerHTML = data.date;
     dateBox.appendChild(date);
     return dateBox;
@@ -41,7 +44,7 @@ function TitleExperience(data) {
     var titleBox = document.createElement("div");
     titleBox.className = "w3-col s6 w3-margin-bottom w3-margin-top";
     var title = document.createElement("a");
-    title.className = "sub-text-title";
+    title.className = "sub-text-title w3-xlarge";
     title.innerHTML = "<b>" + data.title + "</b>";
     titleBox.appendChild(title);
     return titleBox;
@@ -49,20 +52,21 @@ function TitleExperience(data) {
 
 function PositionExperience(data) {
     var position = document.createElement("div");
-    position.className = "w3-margin-bottom w3-margin-top";
+    position.className = "w3-col s6 w3-margin-bottom w3-margin-top";
     var positionText = document.createElement("a");
-    positionText.className = "sub-text-title-a";
-    positionText.innerHTML = data.position;
+    positionText.className = "sub-text-title-a w3-xlarge";
+    positionText.innerHTML = "<b>" + data.position + "</b>";
     position.appendChild(positionText);
     return position;
 }
 
 function ListExperience(data) {
     var list = document.createElement("a");
-    list.className = "sub-text";
+    list.className = "w3-col s6 sub-text w3-xlarge";
     var ul = document.createElement("ul");
     data.list.forEach(element => {
         var li = document.createElement("li");
+        li.className = "sub-text w3-large";
         li.innerHTML = element;
         ul.appendChild(li);
     });
@@ -85,7 +89,7 @@ function DataExperience() {
     }
     const Varisoft = {
         title: "Varisoft",
-        position: "Unity Developer {Internship}",
+        position: "Unity Developer (Internship)",
         date: "August 2019 - December 2019",
         list: [
             "Developed the Mutant Party project for a multiplayer game utilizing the Unity engine and C# programming language.",
@@ -95,7 +99,7 @@ function DataExperience() {
     }
     const questzy = {
         title: "Questzy",
-        position: "Unity Developer {mid-level}",
+        position: "Unity Developer (intermediate / mid-level)",
         date: "March 2021 - January 2025",
         list: [
             "Developed over ten mobile games for the Android platform utilizing the Unity engine and C# programming language.",

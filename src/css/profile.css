@@ -12,13 +12,13 @@
     background-color: #1b2230;
   } */
 
-div.Contact>a {
+/* div.Contact>a {
   float: right;
   font-family: Quark-Light;
   color: white;
   padding-right: 40px;
   padding-top: 10px;
-}
+} */
 
 /*------Info------*/
 /* div.Content_Profile {
@@ -34,14 +34,14 @@ div.Contact>a {
   padding-bottom: 70px;
 } */
 
-div.profile_pic {
+/* div.profile_pic {
   background-color: #1b2230;
   grid-column: 1 / span 2;
   display: grid;
   grid-template-columns: auto 60%;
   height: 100%;
   margin-bottom: 10%;
-}
+} */
 
 /* background-color: #00bcd5; */
 /* background-color: #eb447c; */
@@ -102,7 +102,7 @@ div.reference {
   grid-template-rows: auto auto;
 } */
 
-@keyframes imgAnimate {
+/* @keyframes imgAnimate {
   0% {
     background-image: url(../img/pro_pic1.1.png);
   }
@@ -128,7 +128,7 @@ div.reference {
   0% {
     background-image: url(../img/pro_pic2.1.png);
   }
-}
+} */
 
 /* div.img {
   height: 450px;
@@ -158,7 +158,7 @@ div.img:hover {
   align-items: center;
 } */
 
-div.short-data {
+/* div.short-data {
   padding: 20px;
 }
 
@@ -215,7 +215,7 @@ div.box-personal {
   grid-gap: 10px;
   padding-left: 10%;
   padding-left: 10%;
-}
+} */
 
 img.icon-toppic-r {
   float: right;

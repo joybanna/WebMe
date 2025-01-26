@@ -2,24 +2,15 @@ function ProjectCard(data) {
     var card = document.createElement('div');
     var href = CreateHref(data);
     card.className = 'w3-col l3 m6 w3-margin-bottom';
-    // card.innerHTML = `
-    //     <div class='w3-display-container w3-hover-grayscale'>
-    //         <div class='w3-display-topleft w3-black w3-padding'><a className='project-name'>${data.project}</a></div>
-    //         <img className='project_img' src=${data.thumnil} alt=${data.project} />
-    //         <div class="w3-display-middle w3-display-hover w3-xlarge">
-    //             <a class="w3-button w3-text-white" href=${href}>More detail</a>
-    //         </div>
-    //     </div>`;
-
     card.innerHTML = `
     <div class="w3-card-4 w3-section" >
-    <div class="w3-container w3-theme">
-      <a>${data.project}</a>
+
+    <div class="w3-container w3-theme w3-padding-top-24" style="height: 90px;">
+      <a class="w3-large ">${data.project}</a>
     </div>
-    <img className='project_img' src=${data.thumnil} alt=${data.project} style="width:100%" />
-    <div class="w3-container w3-center">
-    <a class="w3-button" href=${href}>More detail</a>
-    </div>
+    <img className='project_img' src=${data.thumnil} href=${href} alt=${data.project} style="width:100%"  />
+    <a class="w3-button w3-padding w3-hover-theme" href=${href} style="width:100%">More detail</a>
+    
   </div>`;
     return card;
 }
@@ -42,8 +33,8 @@ function CreateProjectCards() {
 
 function GroupCards(feild, header, projects) {
     const title = document.createElement('div');
-    title.className = 'w3-container w3-padding-32';
-    title.innerHTML = ` <h3 class="w3-border-bottom w3-border-black w3-padding-16">${header}</h3>`;
+    title.className = 'w3-padding-32';
+    title.innerHTML = ` <h1 class="w3-border-theme w3-bottombar w3-padding-16 w3-left-align">${header}</h1>`;
 
     feild.appendChild(title);
     feild.appendChild(Cards(projects));
