@@ -16,7 +16,7 @@ function ProjectCard(data) {
 }
 
 function CreateHref(data) {
-    var mainPath = 'Pages/ProjectDetail.html?project=';
+    var mainPath = 'ProjectDetail.html?project=';
     return mainPath + data.id;
 }
 

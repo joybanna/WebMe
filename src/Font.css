@@ -1,16 +1,16 @@
 @font-face {
     font-family: Quark-Bold;
-    src: url(../webfonts/Quark-Bold.otf);
+    src: url(webfonts/Quark-Bold.otf);
 }
 
 @font-face {
     font-family: LeagueSpartan;
-    src: url(../webfonts/LeagueSpartan-Bold.otf);
+    src: url(webfonts/LeagueSpartan-Bold.otf);
 }
 
 @font-face {
     font-family: Quark-Light;
-    src: url(../webfonts/Quark-Light.otf);
+    src: url(webfonts/Quark-Light.otf);
 }
 
 body {
