@@ -29,7 +29,7 @@ function CreateProjectCards() {
 
     GroupCards(feild, 'Company', company);
     GroupCards(feild, 'Prototype', personal);
-    
+
 }
 
 function GroupCards(feild, header, projects) {
@@ -118,8 +118,8 @@ function DataProjectCompany() {
     const drawpuzzle = {
         id: 204,
         project: "Draw Puzzle",
-        thumnil: 'https://github.com/joybanna/WebMe/blob/main/imgs/drawpuzzle/dp_icon.png',
-       
+        thumnil: 'imgs/drawpuzzle/dp_icon.png',
+
     }
     const pathpuzzle = {
         id: 205,
