@@ -99,7 +99,7 @@ function DataProject(isPersonal) {
     const towerDefence = {
         id: 201,
         project: "Kingdom castle",
-        thumnil: 'img/KindomCastle/KC_icon.PNG',
+        thumnil: 'img/KindomCastle/kc_icon.PNG',
     }
     const popit = {
         id: 202,
