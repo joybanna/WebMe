@@ -113,7 +113,7 @@ function DataProjectCompany() {
     const stealGame = {
         id: 203,
         project: "Steal Game",
-        thumnil: 'imgs/stealGame/stg_icon.png',
+        thumnil: 'imgs/stealgame/stg_icon.png',
     }
     const drawpuzzle = {
         id: 204,
@@ -124,7 +124,7 @@ function DataProjectCompany() {
     const pathpuzzle = {
         id: 205,
         project: "Path Puzzle",
-        thumnil: 'imgs/pathPuzzle/pp_icon.png',
+        thumnil: 'imgs/pathpuzzle/pp_icon.png',
     }
     const superslime = {
         id: 206,
