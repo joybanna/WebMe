@@ -103,57 +103,57 @@ function DataProjectCompany() {
     const towerDefence = {
         id: 201,
         project: "Kingdom castle",
-        thumnil: 'imgs/kindomcastle/kc_icon.PNG',
+        thumnil: 'imgs/kindomcastle/kc_icon.png',
     }
     const popit = {
         id: 202,
         project: "Popit",
-        thumnil: 'imgs/popit/pi_icon.PNG',
+        thumnil: 'imgs/popit/pi_icon.png',
     }
     const stealGame = {
         id: 203,
         project: "Steal Game",
-        thumnil: 'imgs/stealGame/sg_icon.PNG',
+        thumnil: 'imgs/stealGame/sg_icon.png',
     }
     const drawpuzzle = {
         id: 204,
         project: "Draw Puzzle",
-        thumnil: 'imgs/drawpuzzle/dp_icon.PNG',
+        thumnil: 'imgs/drawpuzzle/dp_icon.png',
     }
     const pathpuzzle = {
         id: 205,
         project: "Path Puzzle",
-        thumnil: 'imgs/pathPuzzle/pp_icon.PNG',
+        thumnil: 'imgs/pathPuzzle/pp_icon.png',
     }
     const superslime = {
         id: 206,
         project: "Super Slime",
-        thumnil: 'imgs/slime/s_icon.PNG',
+        thumnil: 'imgs/slime/s_icon.png',
     }
     const monsterdraft = {
         id: 207,
         project: "Monster Draft",
-        thumnil: 'imgs/monsterdraft/md_icon.PNG',
+        thumnil: 'imgs/monsterdraft/md_icon.png',
     }
     const mergehero = {
         id: 208,
         project: "Merge Hero",
-        thumnil: 'imgs/mergehero/mh_icon.PNG',
+        thumnil: 'imgs/mergehero/mh_icon.png',
     }
     const savethedog = {
         id: 209,
         project: "Save The Dog",
-        thumnil: 'imgs/savethedog/std_icon.PNG',
+        thumnil: 'imgs/savethedog/std_icon.png',
     }
     const watersort = {
         id: 210,
         project: "Water Sort",
-        thumnil: 'imgs/watersort/ws_icon.PNG',
+        thumnil: 'imgs/watersort/ws_icon.png',
     }
     const hairsalon = {
         id: 211,
         project: "Hair Salon",
-        thumnil: 'imgs/hairsalon/hs_icon.PNG',
+        thumnil: 'imgs/hairsalon/hs_icon.png',
     }
     const parkescape = {
         id: 212,
@@ -163,7 +163,7 @@ function DataProjectCompany() {
     const findit = {
         id: 213,
         project: "Find It",
-        thumnil: 'imgs/findit/fi_icon.PNG',
+        thumnil: 'imgs/findit/fi_icon.png',
     }
 
 
