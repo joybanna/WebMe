@@ -40,7 +40,7 @@ function WriteImgContent(data) {
         imgContent.src = img;
         imgContent.alt = img;
         imgContent.style.width = isHorizontal ? '100%' : '50%';
-        imgContent.style.maxHeight = '800px';
+        imgContent.style.maxHeight = '750px';
         content.appendChild(imgContent);
         console.log("img : %s", img);
 
@@ -111,6 +111,7 @@ function WriteReference(data) {
     if (data.reference == "") return;
     var reference = document.getElementById('reference');
     var text = document.createElement('a');
+    text.className = 'w3-xlarge w3-padding';
     text.href = data.reference;
     text.innerHTML = `Source&Reference : ${data.reference}`;
     text.style.textDecoration = 'none';
@@ -270,7 +271,8 @@ function ProjectsDetail() {
             "imgs/pic_pro_5/de_18.PNG",
         ],
         reference: "",
-        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/s78SPl3FBVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        // video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/s78SPl3FBVc?si=CDeDRR8OMrreQhw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        video: '',
         feature: ["2D Semi idle Heroes collection Game", "PC and Mobile platforms", "Inventory systems", "Turnbase game", "Auto and manual mode", "Resource management", "Upgrade systems", "Resource time", "Storyline"],
         description: "Desir is a captivating 2D semi-idle and turn-base game where players collect and strategically utilize a diverse roster of heroes. Engage in thrilling battles using both auto and manual modes. In auto mode, plan your team's actions before the battle commences, while manual mode grants you direct control during the fight. Continuously upgrade your heroes to enhance their strength and conquer increasingly challenging battles in this engaging and dynamic game."
         , imgdetail: 'horizontal',
@@ -305,7 +307,7 @@ function ProjectsDetail() {
         video: "",
         feature: ["3D Shooting Game", "Mobile platforms", "AR system powered by Vuforia", "Customize AR markers", "Aerial combat", "Castle defense"],
         description: "Sky Shooting is an exhilarating 3D Augmented Reality (AR) shooting game powered by the Vuforia engine. Players can customize their own AR markers to trigger immersive gameplay. Once a marker is detected, captivating in-game objects appear on the player's device. Engage in thrilling aerial combat, shooting down enemies to rack up points and valiantly defend your castle in this dynamic and immersive AR experience."
-        , imgdetail: 'horizontal',
+        , imgdetail: 'vertical',
     }
     const findMe = {
         id: 108,

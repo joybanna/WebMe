@@ -1,17 +1,14 @@
 function CreateContactCard(data) {
     var card = document.createElement('div');
-    card.className = 'contact-card w3-third';
-    card.style.width = '325px';
-    card.style.height = '325px';
+    card.className = 'contact-card w3-card-4';
+    card.style.width = '350px';
+    card.style.height = '450px';
     card.style.backgroundColor = 'white';
-    card.style.margin = '1vw';
-    card.style.padding = '10px';
-    card.style.textAlign = 'center';
-    card.style.boxShadow = '0 4px 8px 0 rgba(0,0,0,0.2)';
-    // card.style.transition = '0.3s';
-    card.style.alignItems = 'center';
     card.style.display = 'grid';
     card.style.gridTemplateRows = 'auto auto auto';
+    card.style.justifyContent = 'center';
+    card.style.alignItems = 'center';
+    card.style.borderRadius = '10px';
     card.innerHTML = `<h2>${data.name}</h2>`;
     var icon = document.createElement('img');
     icon.src = data.img;
@@ -25,6 +22,7 @@ function CreateContactCard(data) {
     icon.style.padding = '0';
     card.appendChild(icon);
     var info = document.createElement('a');
+    info.className = 'w3-xlarge';
     info.href = data.hf;
     info.style.textDecoration = 'none';
     info.innerHTML = data.info;
@@ -72,17 +70,19 @@ function DataContact() {
 function ShowContactCard() {
     document.addEventListener('DOMContentLoaded', () => {
         const contactCard = document.getElementById('contact-card');
-        contactCard.style.minHeight = '90vh';
+        // contactCard.style.minHeight = '90vh';
         const box = document.createElement('div');
-        box.className = "w3-row w3-padding-32 w3-center w3-margin";
-        // box.style.minHeight = '75vh';
-        // box.style.paddingTop = '100px';
-        // box.style.paddingLeft = '1vw';
+        box.className = "w3-center w3-padding-32";
+        // box.style.margin = 'auto';
+        // box.style.width = '60%';
+        // box.style.height = '50%';
+        box.style.display = 'grid';
+        box.style.gridTemplateColumns = 'repeat(auto-fit, minmax(325px, 1fr))';
+        box.style.gridGap = '40px';
+        box.style.justifyContent = 'center';
+        // box.style.alignItems = 'center';
+        box.style.paddingLeft = '7%';
         contactCard.appendChild(box);
-        // contactCard.style.display = 'grid';
-        // contactCard.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';
-        // contactCard.style.justifyContent = 'center';
-        // contactCard.style.padding = '10%';
         const list = DataContact();
         console.log(list.length);
         list.map(data => {
