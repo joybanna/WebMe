@@ -104,36 +104,36 @@ div.reference {
 
 /* @keyframes imgAnimate {
   0% {
-    background-image: url(..img/pro_pic1.1.png);
+    background-image: url(..imgs/pro_pic1.1.png);
   }
 
   5% {
-    background-image: url(..img/pro_pic3.1.png);
+    background-image: url(..imgs/pro_pic3.1.png);
   }
 
   85% {
-    background-image: url(..img/pro_pic1.1.png);
+    background-image: url(..imgs/pro_pic1.1.png);
   }
 
   89% {
-    background-image: url(..img/pro_pic3.1.png);
+    background-image: url(..imgs/pro_pic3.1.png);
   }
 
   93% {
-    background-image: url(..img/pro_pic2.1.png);
+    background-image: url(..imgs/pro_pic2.1.png);
   }
 }
 
 @keyframes imgAnimate1 {
   0% {
-    background-image: url(..img/pro_pic2.1.png);
+    background-image: url(..imgs/pro_pic2.1.png);
   }
 } */
 
 /* div.img {
   height: 450px;
   width: 400px;
-  background-image: url(..img/pro_pic1.1.png);
+  background-image: url(..imgs/pro_pic1.1.png);
   animation-name: imgAnimate;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -147,7 +147,7 @@ div.reference {
 div.img:hover {
   height: 450px;
   width: 400px;
-  background-image: url(..img/pro_pic2.1.png);
+  background-image: url(..imgs/pro_pic2.1.png);
   animation-name: imgAnimate1;
   animation-duration: 1s;
   animation-iteration-count: infinite;

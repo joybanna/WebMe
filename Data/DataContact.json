@@ -2,31 +2,31 @@
 [
     {
         "name": "Gmail",
-        "img": "../assetsimg/002-google.png",
+        "img": "../assetsimgs/002-google.png",
         "info": "joybanna@gmail.com",
         "hf": ""
     },
     {
         "name": "Facebook",
-        "img": "../assetsimg/001-facebook.png",
+        "img": "../assetsimgs/001-facebook.png",
         "info": "joybanna",
         "hf": ""
     },
     {
         "name": "Hotmail",
-        "img": "../assetsimg/003-microsoft.png",
+        "img": "../assetsimgs/003-microsoft.png",
         "info": "joybanna@hotmail.com",
         "hf": ""
     },
     {
         "name": "Tel.",
-        "img": "../assetsimg/004-apple.png",
+        "img": "../assetsimgs/004-apple.png",
         "info": "091-047-4856",
         "hf": ""
     },
     {
         "name": "LinkedIn",
-        "img": "../assetsimg/LinkedIn.png",
+        "img": "../assetsimgs/LinkedIn.png",
         "info": "Kritsana Sanaepood",
         "hf": "https://linkedin.com/in/kritsana-sanaepood-a4520b205"
     }

@@ -37,31 +37,31 @@ function CreateContactCard(data) {
 function DataContact() {
     const gmail = {
         name: "Gmail",
-        img: 'img/002-google.png',
+        img: 'imgs/002-google.png',
         info: "joybanna@gmail.com",
         hf: ""
     }
     const facebook = {
         name: "Facebook",
-        img: 'img/001-facebook.png',
+        img: 'imgs/001-facebook.png',
         info: "joybanna",
         hf: ""
     }
     const hotmail = {
         name: "Hotmail",
-        img: 'img/003-microsoft.png',
+        img: 'imgs/003-microsoft.png',
         info: "joybanna@hotmail.com",
         hf: ""
     }
     const tel = {
         name: "Tel.",
-        img: 'img/004-apple.png',
+        img: 'imgs/004-apple.png',
         info: "091-047-4856",
         hf: ""
     }
     const linkedin = {
         name: "LinkedIn",
-        img: 'img/LinkedIn.png',
+        img: 'imgs/LinkedIn.png',
         info: "Kritsana Sanaepood",
         hf: "https://linkedin.com/in/kritsana-sanaepood-a4520b205"
     }
