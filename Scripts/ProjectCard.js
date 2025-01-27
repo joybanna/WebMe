@@ -26,9 +26,10 @@ function CreateProjectCards() {
     const company = DataProjectCompany();
     console.log("Personal Project : %d", personal.length);
     console.log("Company Project : %d", company.length);
-
-    GroupCards(feild, 'Prototype', personal);
+    
     GroupCards(feild, 'Company', company);
+    GroupCards(feild, 'Prototype', personal);
+    
 }
 
 function GroupCards(feild, header, projects) {
