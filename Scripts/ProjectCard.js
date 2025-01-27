@@ -8,7 +8,7 @@ function ProjectCard(data) {
     <div class="w3-container w3-theme w3-padding-top-24" style="height: 90px;">
       <a class="w3-large ">${data.project}</a>
     </div>
-    <img className='project_img' src=${data.thumnil} href=${href} alt=${data.project} style="width:100%"  />
+    <img className='project_img' src=${data.thumnil} alt=${data.project} style="width:100%"  />
     <a class="w3-button w3-padding w3-hover-theme" href=${href} style="width:100%">More detail</a>
   </div>`;
     console.log(data);
@@ -26,7 +26,7 @@ function CreateProjectCards() {
     const company = DataProjectCompany();
     console.log("Personal Project : %d", personal.length);
     console.log("Company Project : %d", company.length);
-    
+
     GroupCards(feild, 'Company', company);
     GroupCards(feild, 'Prototype', personal);
     
