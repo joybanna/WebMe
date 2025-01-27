@@ -27,7 +27,7 @@ function WriteImgContent(data) {
     console.log("project img : %d", data.imgs.length);
     data.imgs.map((img) => {
         var imgContent = document.createElement('img');
-        imgContent.className = ' w3-container w3-center';
+        imgContent.className = 'mySlides w3-container w3-center';
         imgContent.src = img;
         imgContent.alt = img;
         imgContent.style.width = '100%';
