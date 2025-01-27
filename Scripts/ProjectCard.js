@@ -16,7 +16,7 @@ function ProjectCard(data) {
 }
 
 function CreateHref(data) {
-    var mainPath = 'ProjectDetail.html?project=';
+    var mainPath = '03_ProjectDetail.html?project=';
     return mainPath + data.id;
 }
 
@@ -57,99 +57,99 @@ function DataProject(isPersonal) {
     const monopoly = {
         id: 101,
         project: "Monopoly Prototype",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_1/mono_icon.PNG',
     }
     const stealth = {
         id: 102,
         project: "Stealth Prototype",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_2/stealth_icon.PNG',
     }
     const help = {
         id: 103,
         project: "Help Me plz !!!!",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_3/help_icon.PNG',
     }
     const typingTyohoon = {
         id: 104,
         project: "Typing Typhoon (NSC)",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_4/typing_icon.PNG',
     }
     const desir = {
         id: 105,
         project: "De'sir The fragment of Memory (Thesis)",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_5/de_icon.PNG',
     }
     const theLost = {
         id: 106,
         project: "The Lost Treasure",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_6/the_icon.PNG',
     }
     const skyShooter = {
         id: 107,
         project: "Sky Shooting",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_7/sky_icon.PNG',
     }
     const findMe = {
         id: 108,
         project: "Find Me",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/pic_pro_8/find_icon.PNG',
     }
     const personalList = [monopoly, stealth, help, typingTyohoon, desir, theLost, skyShooter, findMe]
 
     const towerDefence = {
         id: 201,
         project: "Kingdom castle",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/KindomCastle/KC_icon.PNG',
     }
     const popit = {
         id: 202,
         project: "Popit",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/Popit/PI_icon.PNG',
     }
     const stealGame = {
         id: 203,
         project: "Steal Game",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/StealGame/SG_icon.PNG',
     }
     const drawpuzzle = {
         id: 204,
         project: "Draw Puzzle",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/DrawPuzzle/DP_icon.PNG',
     }
     const pathpuzzle = {
         id: 205,
         project: "Path Puzzle",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/PathPuzzle/PP_icon.PNG',
     }
     const superslime = {
         id: 206,
         project: "Super Slime",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/Slime/S_icon.PNG',
     }
     const monsterdraft = {
         id: 207,
         project: "Monster Draft",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/MonsterDraft/MD_icon.PNG',
     }
     const mergehero = {
         id: 208,
         project: "Merge Hero",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/MergeHero/MH_icon.PNG',
     }
     const savethedog = {
         id: 209,
         project: "Save The Dog",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/SaveTheDog/STD_icon.PNG',
     }
     const watersort = {
         id: 210,
         project: "Water Sort",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/WaterSort/WS_icon.PNG',
     }
     const hairsalon = {
         id: 211,
         project: "Hair Salon",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/HairSalon/HS_icon.PNG',
     }
     const parkescape = {
         id: 212,
@@ -159,7 +159,7 @@ function DataProject(isPersonal) {
     const findit = {
         id: 213,
         project: "Find It",
-        thumnil: "https://loremflickr.com/300/300?random=1",
+        thumnil: 'src/assets/img/FindIt/FI_icon.PNG',
     }
 
 
