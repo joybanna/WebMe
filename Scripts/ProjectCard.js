@@ -113,7 +113,7 @@ function DataProjectCompany() {
     const stealGame = {
         id: 203,
         project: "Steal Game",
-        thumnil: 'imgs/stealGame/sg_icon.png',
+        thumnil: 'imgs/stealGame/stg_icon.png',
     }
     const drawpuzzle = {
         id: 204,

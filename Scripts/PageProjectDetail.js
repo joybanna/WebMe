@@ -33,11 +33,29 @@ function WriteImgContent(data) {
         imgContent.style = 'width:100%';
         content.appendChild(imgContent);
         console.log("img : %s", img);
+
     });
 
+    var slideCtrl = document.getElementById('slide-ctrl');
+    // var section = document.createElement('div');
+    // section.className="w3-section w3-padding-16 w3-center";
+    // var btnL = document.createElement('button');
+    // btnL.className = 'w3-button w3-theme-d1';
+    // btnL.onclick = function () { plusDivs(-1) };
+    // btnL.innerHTML = '&#10094;';
+    // section.appendChild(btnL);
+
+    // var btnR = document.createElement('button');
+    // btnR.className = 'w3-button w3-theme-d1';
+    // btnR.onclick = function () { plusDivs(1) };
+    // btnR.innerHTML = '&#10095;';
+    // section.appendChild(btnR);
+
+    // slideCtrl.appendChild(section);
+
     var carouselDot = document.createElement('div');
-    carouselDot.className = 'w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle w3-padding-16';
-    carouselDot.style = 'width:120%';
+    carouselDot.className = 'w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle w3-margin-top-64';
+    carouselDot.style = 'width: 100%';
     content.appendChild(carouselDot);
 
     var leftBtn = document.createElement('div');
