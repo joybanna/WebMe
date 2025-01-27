@@ -25,13 +25,22 @@ function WriteHead(data) {
 function WriteImgContent(data) {
     var content = document.getElementById('slide-show');
     console.log("project img : %d", data.imgs.length);
+
+    // if (data.imgdetail == 'horizontal') {
+    //     content.style = 'max-width:800px;';
+    // }
+    // else {
+    //     content.style = "max-height:600px;";
+    // }
+    var isHorizontal = data.imgdetail == 'horizontal';
+
     data.imgs.map((img) => {
         var imgContent = document.createElement('img');
-        imgContent.className = 'mySlides w3-container w3-center';
+        imgContent.className = ' w3-container w3-center w3-half w3-padding-16';
         imgContent.src = img;
         imgContent.alt = img;
-        imgContent.style.width = '100%';
-        // imgContent.style.height = '50%';
+        imgContent.style.width = isHorizontal ? '100%' : '50%';
+        imgContent.style.maxHeight = '800px';
         content.appendChild(imgContent);
         console.log("img : %s", img);
 
@@ -54,29 +63,29 @@ function WriteImgContent(data) {
 
     // slideCtrl.appendChild(section);
 
-    var carouselDot = document.createElement('div');
-    carouselDot.className = 'w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle w3-margin-top-64';
-    carouselDot.style = 'width:100%';
-    content.appendChild(carouselDot);
+    // var carouselDot = document.createElement('div');
+    // carouselDot.className = 'w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle w3-margin-top-64';
+    // carouselDot.style = 'width:100%';
+    // content.appendChild(carouselDot);
 
-    var leftBtn = document.createElement('div');
-    leftBtn.className = 'w3-left w3-hover-text-khaki w3-circle w3-button w3-theme-d3';
-    leftBtn.onclick = function () { plusDivs(-1) };
-    leftBtn.innerHTML = '&#10094;';
-    carouselDot.appendChild(leftBtn);
+    // var leftBtn = document.createElement('div');
+    // leftBtn.className = 'w3-left w3-hover-text-khaki w3-circle w3-button w3-theme-d3';
+    // leftBtn.onclick = function () { plusDivs(-1) };
+    // leftBtn.innerHTML = '&#10094;';
+    // carouselDot.appendChild(leftBtn);
 
-    var rightBtn = document.createElement('div');
-    rightBtn.className = 'w3-right w3-hover-text-khaki w3-circle w3-button w3-theme-d3';
-    rightBtn.onclick = function () { plusDivs(1) };
-    rightBtn.innerHTML = '&#10095;';
-    carouselDot.appendChild(rightBtn);
+    // var rightBtn = document.createElement('div');
+    // rightBtn.className = 'w3-right w3-hover-text-khaki w3-circle w3-button w3-theme-d3';
+    // rightBtn.onclick = function () { plusDivs(1) };
+    // rightBtn.innerHTML = '&#10095;';
+    // carouselDot.appendChild(rightBtn);
 
-    data.imgs.map((img, index) => {
-        var dot = document.createElement('span');
-        dot.className = 'w3-badge demo w3-border w3-transparent w3-hover-white';
-        dot.onclick = function () { currentDiv(index + 1) };
-        carouselDot.appendChild(dot);
-    });
+    // data.imgs.map((img, index) => {
+    //     var dot = document.createElement('span');
+    //     dot.className = 'w3-badge demo w3-border w3-transparent w3-hover-white';
+    //     dot.onclick = function () { currentDiv(index + 1) };
+    //     carouselDot.appendChild(dot);
+    // });
 }
 
 
@@ -90,6 +99,7 @@ function WriteFeature(data) {
     var block = document.createElement('ul');
     data.feature.map((feature) => {
         var item = document.createElement('li');
+        item.className = 'w3-xlarge w3-padding';
         item.innerHTML = feature;
         block.appendChild(item);
     }
@@ -129,38 +139,38 @@ function WriteContent() {
         WriteFeature(projectData);
         WriteReference(projectData);
         WriteVideo(projectData);
-        showDivs(slideIndex);
+        // showDivs(slideIndex);
     });
 }
 
 WriteContent();
 
-var slideIndex = 1;
+// var slideIndex = 1;
 
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
+// function plusDivs(n) {
+//     showDivs(slideIndex += n);
+// }
 
-function currentDiv(n) {
-    showDivs(slideIndex = n);
-}
+// function currentDiv(n) {
+//     showDivs(slideIndex = n);
+// }
 
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    if (n > x.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = x.length }
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" w3-theme", "");
-    }
-    x[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " w3-theme";
-}
+// function showDivs(n) {
+//     var i;
+//     var x = document.getElementsByClassName("mySlides");
+//     var dots = document.getElementsByClassName("demo");
+//     if (n > x.length) { slideIndex = 1 }
+//     if (n < 1) { slideIndex = x.length }
+//     for (i = 0; i < x.length; i++) {
+//         x[i].style.display = "none";
+//     }
+//     for (i = 0; i < dots.length; i++) {
+//         dots[i].className = dots[i].className.replace(" w3-theme", "");
+//     }
+//     x[slideIndex - 1].style.display = "block";
+//     dots[slideIndex - 1].className += " w3-theme";
+// }
 
 function ProjectsDetail() {
     const monopoly = {
