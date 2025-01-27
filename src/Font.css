@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Quark-Bold;
     src: url(webfonts/Quark-Bold.otf);
 }
@@ -11,17 +11,26 @@
 @font-face {
     font-family: Quark-Light;
     src: url(webfonts/Quark-Light.otf);
-}
+} */
 
-body {
+/* body,h1,
+h2,
+h3,
+h4,
+h5,
+h6  {
     font-family: Quark-Light;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-family: Quark-Light;
-}
+} */
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+  }

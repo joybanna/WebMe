@@ -1,6 +1,6 @@
 function CreateContactCard(data) {
     var card = document.createElement('div');
-    card.className = 'contact-card w3-col s12 m6 l4';
+    card.className = 'contact-card w3-third';
     card.style.width = '325px';
     card.style.height = '325px';
     card.style.backgroundColor = 'white';
@@ -72,10 +72,13 @@ function DataContact() {
 function ShowContactCard() {
     document.addEventListener('DOMContentLoaded', () => {
         const contactCard = document.getElementById('contact-card');
-        contactCard.className = "w3-row-padding w3-row-padding w3-theme-l5";
-        contactCard.style.minHeight = '75vh';
-        contactCard.style.paddingTop = '100px';
-        contactCard.style.paddingLeft = '1vw';
+        contactCard.style.minHeight = '90vh';
+        const box = document.createElement('div');
+        box.className = "w3-row w3-padding-32 w3-center w3-margin";
+        // box.style.minHeight = '75vh';
+        // box.style.paddingTop = '100px';
+        // box.style.paddingLeft = '1vw';
+        contactCard.appendChild(box);
         // contactCard.style.display = 'grid';
         // contactCard.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';
         // contactCard.style.justifyContent = 'center';
@@ -85,7 +88,7 @@ function ShowContactCard() {
         list.map(data => {
             console.log(data.name);
             var card = CreateContactCard(data);
-            contactCard.appendChild(card);
+            box.appendChild(card);
         });
     }
     );
